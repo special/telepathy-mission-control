@@ -1,0 +1,3 @@
+[submodule "telepathy-mission-control"]
+	path = telepathy-mission-control
+	url = http://anongit.freedesktop.org/git/telepathy/telepathy-mission-control.git
