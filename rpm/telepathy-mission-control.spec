@@ -31,7 +31,6 @@ BuildRequires:  pkgconfig(glib-2.0) >= 2.32
 BuildRequires:  pkgconfig(gobject-2.0)
 BuildRequires:  pkgconfig(gmodule-no-export-2.0)
 BuildRequires:  pkgconfig(gio-2.0) >= 2.28
-BuildRequires:  pkgconfig(upower-glib)
 BuildRequires:  pkgconfig(mce)
 BuildRequires:  libxslt
 BuildRequires:  python
@@ -95,7 +94,6 @@ files for developing applications that use %{name}.
 --disable-gtk-doc \
 --with-accounts-cache-dir=/tmp \
 --disable-Werror \
---enable-upower \
 --with-connectivity=connman \
 --disable-conn-setting \
 --enable-installed-tests \
