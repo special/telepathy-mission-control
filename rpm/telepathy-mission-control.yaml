@@ -20,6 +20,7 @@ Patches:
     - nemo-tests-dir-fix.patch
     - nemo-fix-system-dbus-for-tests.patch
     - disable-gtk-doc.patch
+    - 0001-McdSlacker-Revert-use-of-org.gnome.SessionManager-in.patch
 
 PkgBR:
     - libxslt
