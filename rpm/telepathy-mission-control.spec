@@ -22,6 +22,7 @@ Patch1:     nemo-tests-dir-fix.patch
 Patch2:     nemo-fix-system-dbus-for-tests.patch
 Patch3:     disable-gtk-doc.patch
 Patch4:     0001-McdSlacker-Revert-use-of-org.gnome.SessionManager-in.patch
+Patch5:     0001-Prevent-assert-for-offline-accounts-with-power-savin.patch
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 BuildRequires:  pkgconfig(dbus-1) >= 0.95
@@ -82,6 +83,8 @@ files for developing applications that use %{name}.
 %patch3 -p1
 # 0001-McdSlacker-Revert-use-of-org.gnome.SessionManager-in.patch
 %patch4 -p1
+# 0001-Prevent-assert-for-offline-accounts-with-power-savin.patch
+%patch5 -p1
 # >> setup
 %__cp $RPM_SOURCE_DIR/mktests.sh tests/twisted/
 %__chmod 0755 tests/twisted/mktests.sh
