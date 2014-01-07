@@ -21,6 +21,7 @@ Patches:
     - nemo-fix-system-dbus-for-tests.patch
     - disable-gtk-doc.patch
     - 0001-McdSlacker-Revert-use-of-org.gnome.SessionManager-in.patch
+    - 0001-Prevent-assert-for-offline-accounts-with-power-savin.patch
 
 PkgBR:
     - libxslt
